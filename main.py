@@ -8,7 +8,7 @@ from keras.layers import Dense, LSTM
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 
-df = pd.read_csv(r"Dataset/AMS.csv")
+df = pd.read_csv(r"Dataset/AAPL.csv")
 
 plt.figure(figsize=(16,8))
 plt.title('close price history')
